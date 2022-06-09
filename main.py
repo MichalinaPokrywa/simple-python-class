@@ -7,7 +7,7 @@ class SimpleClass:
 
     def __init__(self, word="headphones", value=1):  # initializes parameters
         self.class_number = self.index
-        self.__class__.index = self.index + 1  # it refers to the class attribute it was created in before init
+        self.__class__.index = self.index + 1  # it refers to the class attribute that was created in before init
         self.word = word
         self.value = value
         # self.value = self.random()
